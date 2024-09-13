@@ -1,0 +1,61 @@
+.main-post-products{
+    margin-bottom: 30px;
+}
+
+.main-post-products .myProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productCards .card{
+    width: 240px; 
+    border-radius: 0%; 
+    border: 1px solid rgb(174, 173, 173);
+    box-shadow: 5px 5px #f8dca4;
+}
+
+.productCards .card:hover{
+    transform: scale(1.04);
+}
+
+
+.productCards .card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+.main-post-products .heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.productCards .card .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productCards .card .card-header i{
+    font-size: 22px;
+    color: gray;
+}
+
+.productCards .card .card-header p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.productCards .card .card-header i:hover{
+    color: red;
+}
+
+.productCards .card .card-footer .del-btn{
+    background-color: rgb(246, 93, 93);
+}
+
+
+
+

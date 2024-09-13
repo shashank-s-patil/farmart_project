@@ -1,0 +1,67 @@
+.main-post-products .myProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 300px;  
+    border: 1px solid #2D095F;
+    box-shadow: 5px 5px #f1cd9c;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+
+.card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+.card .card-footer span{
+    font-weight: bolder;
+}
+
+.main-post-products .heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.card .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-header i{
+    font-size: 22px;
+    color: gray;
+}
+
+.card .card-header p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.card .card-header i:hover{
+    color: red;
+}
+
+
+.card .card-footer .btn{
+    background-color: #f63770;
+    color: white;
+}
+
+.card .card-footer .btn:hover{
+    background-color: #E40046;
+}
+
+
+
+
+

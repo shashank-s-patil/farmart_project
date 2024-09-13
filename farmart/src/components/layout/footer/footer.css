@@ -1,0 +1,24 @@
+.footer1{
+    height: 25px;
+    background-color: #f2b741;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 img{
+    width: 100px;
+}
+
+.footer2{
+    height: 50px;
+    background-color: #aa7407;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 p{
+    color: white;
+    padding-top: 12px;
+}
