@@ -1,0 +1,225 @@
+.home{
+    margin-bottom: 70px;
+}
+
+.home .heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.home .banner1{
+    background-image: url('../../assets/images/farmart_banner_background.jpg');
+    background-size: cover;
+    width: 100%;
+    /* height: 572px; */
+    padding: 20px 30px;
+}
+
+.home .banner1 .banner1-sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home .banner1 .banner1-sub .sub1{
+    width: 70%;
+    border-radius: 5px;
+}
+
+.home .banner1 .banner1-sub .sub1 img{
+    width: 95%;
+    border-radius: 10px;
+}
+
+.home .banner1 .banner1-sub .sub2{
+    width: 30%;
+}
+
+.home .banner1 .banner1-sub .sub2 img{
+    width: 95%;
+    border-radius: 10px;
+}
+
+
+.home .heading{
+    margin-top: 80px;
+}
+
+
+
+.handpicks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.handpicks .card{
+    width: 190px;
+    border-radius: 0%;
+    text-align: center;
+    border: 1px solid rgb(174, 173, 173);
+    box-shadow: 5px 5px #f8dca4;
+}
+
+.handpicks .card:hover{
+    transform: scale(1.04);
+}
+
+.handpicks .card .card-body img{
+    width: 100%;
+}
+
+.handpicks .card .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handpicks .card .card-footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.handpicks .card .card-footer a:hover{
+    color: #f9a807;
+}
+
+
+
+/* banner2 */
+
+.home .banner2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.home .banner2 .banner2-sub{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.home .banner2 .banner2-sub img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* View products */
+
+.main-post-products .myProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productCards .card{
+    width: 240px;  
+    border-radius: 0%;
+    border: 1px solid rgb(174, 173, 173);
+    box-shadow: 5px 5px #f8dca4;
+    margin-bottom: 50px;
+}
+
+.productCards .card:hover{
+    transform: scale(1.04);
+}
+
+
+.productCards .card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+.main-post-products .heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.productCards .card .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productCards .card .card-header i{
+    font-size: 22px;
+    color: gray;
+}
+
+.productCards .card .card-header p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.productCards .card .card-header i:hover{
+    color: red;
+}
+
+
+.productCards .card .card-footer .add-btn{
+    background-color: #f2b741;
+    color: white;
+}
+
+.productCards .card .card-footer .add-btn:hover{
+    background-color: #f4a507;
+}
+
+.productCards .card .card-footer .quantity{
+    border: 1px solid rgb(188, 187, 187);
+    padding: 10px ;
+}
+
+.productCards .card .card-footer .quantity span{
+    padding: 10px;
+}
+
+
+
+
+
+/* Quantity-btn */
+
+.Quantity-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid rgb(208, 206, 206);
+}
+
+
+.Quantity-btn input{
+    border: none;
+    border-radius: 0%;
+}
+
+.Quantity-btn .btn:hover{
+    background-color: rgb(241, 238, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

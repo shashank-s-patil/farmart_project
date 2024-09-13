@@ -1,0 +1,65 @@
+.prod{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.prod .prod-container .prod-logo{
+    width: 250px;
+}
+
+.prod .prod-container .prod-logo img{
+    width: 100%;
+}
+
+
+
+
+.prod .prod-container .prod-form{
+    /* background-color: yellow;   */
+    padding: 30px; 
+    width: 500px;
+    border: 1px solid #2D095F;
+    /* border-radius: 8px; */
+    /* background-color: #facff1; */
+    box-shadow: 5px 5px #fac06f;
+}
+
+.prod .prod-container .prod-form h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.prod .prod-container .prod-form .btn{
+    background-color: #F79100;
+    color: white;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0%;
+}
+
+.prod .prod-container .prod-form .prod-terms{
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+.prod .prod-container .prod-form h6{
+    color: #F79100;
+}
+
+.prod-terms a{
+    color: #F79100;
+    text-decoration: none;
+}
+
+.prod .prod-container .prod-form .update-img img{
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+
+
+
